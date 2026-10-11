@@ -1,0 +1,196 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+
+    /* Impactful gradient background */
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* subtle glowing background circles */
+body::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#00e676;
+    border-radius:50%;
+    filter:blur(150px);
+    top:-100px;
+    left:-100px;
+    opacity:0.4;
+}
+
+body::after{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#69f0ae;
+    border-radius:50%;
+    filter:blur(150px);
+    bottom:-100px;
+    right:-100px;
+    opacity:0.4;
+}
+
+.container{
+    text-align:center;
+    position:relative;
+}
+
+/* glassmorphism card */
+.card{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(15px);
+
+    padding:50px;
+    border-radius:15px;
+
+    width:420px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.4);
+
+    color:white;
+}
+
+h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:15px;
+    color:#e0e0e0;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:12px 28px;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.login{
+    background:#00c853;
+    color:white;
+}
+
+.register{
+    background:#64dd17;
+    color:white;
+}
+
+.btn:hover{
+    transform:scale(1.07);
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+
+    background: linear-gradient(135deg,#00c853,#64dd17);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    text-align:center;
+}
+
+.card{
+
+    background:white;
+    padding:50px;
+    border-radius:12px;
+
+    width:400px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+}
+
+h1{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+p{
+    color:#555;
+    font-size:15px;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.btn{
+
+    text-decoration:none;
+    padding:12px 25px;
+
+    border-radius:6px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.login{
+
+    background:#2e7d32;
+    color:white;
+}
+
+.register{
+
+    background:#2e7d32;
+    color:white;
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+body{
+font-family: Arial;
+text-align: center;
+background: #f5f5f5;
+}
+
+h1,h2{
+color: green;
+}
+
+a{
+display:inline-block;
+padding:10px;
+background:green;
+color:white;
+text-decoration:none;
+margin:5px;
+}
